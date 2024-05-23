@@ -246,9 +246,8 @@ local mouse_bindings = {
 }
 
 return {
-
-    disable_default_key_bindings = true,
-    disable_default_mouse_bindings = true,
+    disable_default_key_bindings = false,
+    disable_default_mouse_bindings = false,
     leader = { key = 'Space', mods = mod.SUPER_REV },
     keys = keys,
     key_tables = key_tables,
