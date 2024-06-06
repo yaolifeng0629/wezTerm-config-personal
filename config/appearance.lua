@@ -3,18 +3,19 @@ local gpu_adapters = require('utils.gpu_adapter')
 local colors = require('colors.custom')
 
 return {
-   automatically_reload_config = true,
-   animation_fps = 60,
+   -- automatically_reload_config = true,
+   -- animation_fps = 60,
    max_fps = 60,
    exit_behavior = "CloseOnCleanExit",
-   status_update_interval = 1000,
+   -- status_update_interval = 1000,
    front_end = 'WebGpu',
    -- webgpu_power_preference = 'HighPerformance',
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
 
    -- color scheme
-   colors = colors,
-   color_scheme = "Gruvbox dark, medium (base16)",
+   -- colors = colors,
+    color_scheme = "zenbones_dark",
+
 
    -- background
    background = {
