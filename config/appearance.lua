@@ -13,9 +13,13 @@ return {
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
 
    -- color scheme
-   -- colors = colors,
-    color_scheme = "zenbones_dark",
+    -- colors = colors,
 
+   -- color_scheme = "zenbones_dark",
+   -- color_scheme = "FishTank",
+   color_scheme = "arcoiris",
+   -- color_scheme = "Blue Matrix",
+   -- color_scheme = "Cobalt2",
 
    -- background
    background = {
