@@ -6,15 +6,15 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe" }
+   options.default_prog = { "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" }
    options.launch_menu = {
-      { label = 'PowerShell Core', args = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe" } },
-      { label = 'PowerShell Desktop', args = { "C:\\Program Files\\PowerShell\\7\\pwsh.exe" } },
+      { label = 'PowerShell Core', args = { "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" } },
+      { label = 'PowerShell Desktop', args = { "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" } },
       { label = 'Command Prompt', args = { 'cmd' } },
       { label = 'Nushell', args = { 'nu' } },
       {
          label = 'Git Bash',
-         args = { 'C:\\Users\\kevin\\scoop\\apps\\git\\current\\bin\\bash.exe' },
+         args = { 'C:\\Program Files\\Git\\bin\\bash.exe' },
       },
    }
 elseif platform.is_mac then

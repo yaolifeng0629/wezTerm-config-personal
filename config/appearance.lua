@@ -59,8 +59,8 @@ return {
    integrated_title_button_color = "auto",
    integrated_title_button_alignment = "Right",
    default_cursor_style = 'BlinkingBar',
-   default_cwd = "D:\\Projects\\PersonalProject",
-   default_prog = { "pwsh", "-NoLogo" },
+   default_cwd = "D:\\Projects",
+   default_prog = { "powershell", "-NoLogo" },
    window_frame = {
       -- active_titlebar_bg = '#090909',
       active_titlebar_bg = "#0F2536",
